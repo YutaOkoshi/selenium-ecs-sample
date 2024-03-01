@@ -49,5 +49,5 @@ jobs:
         uses: aws-actions/amazon-ecs-render-task-definition@v1
         with:
           task-definition: ${{ env.ECS_TASK_DEFINITION }}
-          container-name: ${{ env.REPOSITORY }}
+          container-name: ScheduledContainer
           image: ${{ env.IMAGE }}
