@@ -1,0 +1,6 @@
+*.zip
+.DS_Store
+run-migrate-task.sh
+
+.vscode
+!app/.vscode
