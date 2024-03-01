@@ -76,6 +76,7 @@ export class MainStack extends Stack {
       // openListener: true,
     });
     service.taskDefinition.executionRole?.addManagedPolicy(iam.ManagedPolicy.fromAwsManagedPolicyName('AmazonECS_FullAccess'));
+    service.taskDefinition.taskRole.addManagedPolicy(iam.ManagedPolicy.fromAwsManagedPolicyName('AmazonS3FullAccess'));
 
 
     new CfnOutput(this, 'Cluster Name', {
