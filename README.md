@@ -80,7 +80,7 @@ MainStack.TaskDefinitionARN = arn:aws:ecs:ap-northeast-1:123412341234:task-defin
   - ECS_CLUSTER_NAME
   - ECS_TASK_DEFINITION_ARN
 
-![スクリーンショット 2023-11-27 20 54 16](https://github.com/YutaOkoshi/selenium-ecs-sample-on-ecs/assets/37532269/331a1858-acca-493f-8b8c-7830c74dec29)
+![スクリーンショット 2024-03-02 0 45 11](https://github.com/YutaOkoshi/selenium-ecs-sample/assets/37532269/0202ea20-8ddc-4de8-8478-12bc85408cf5)
 
 5. Git Push for Deploy to ECS
 
