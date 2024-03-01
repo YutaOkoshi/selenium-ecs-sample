@@ -30,11 +30,12 @@ def save_screenshot(target_url: str, bucket_name: str):
     driver.save_screenshot(file_name)
     driver.quit()
 
-    client = boto3.client('s3',region_name='ap-northeast-1')
-    client.upload_file(file_name, bucket_name, file_name)
+    # client = boto3.client('s3',region_name='ap-northeast-1')
+    # client.upload_file(file_name, bucket_name, file_name)
 
 
 if __name__ == '__main__':
-    target_url = os.environ['TARGET_URL']
+    # target_url = os.environ['TARGET_URL']
+    target_url = 'https://github.com/'
     bucket_name = os.environ['BUCKET_NAME']
     save_screenshot(target_url, bucket_name)
