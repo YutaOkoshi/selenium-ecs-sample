@@ -3,8 +3,6 @@ import {
   aws_ec2 as ec2,
   aws_ecs as ecs,
   aws_ecr as ecr,
-  aws_rds as rds,
-  aws_elasticloadbalancingv2 as elbv2,
   aws_ecs_patterns as ecs_patterns,
   aws_iam as iam,
   aws_autoscaling as autoscaling,
@@ -20,8 +18,6 @@ interface CustomProps extends StackProps {
 export class MainStack extends Stack {
   public readonly vpc: ec2.Vpc;
   public readonly cluster: ecs.Cluster;
-  public readonly auroraPg: rds.DatabaseCluster;
-  public readonly alb: elbv2.ApplicationLoadBalancer;
 
   constructor(scope: Construct, id: string, props: CustomProps) {
     super(scope, id, props);
