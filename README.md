@@ -4,10 +4,10 @@
 ## about
 
 - Deploy Flow
-- ![deployflow drawio](https://github.com/YutaOkoshi/selenium-ecs-sample/assets/37532269/c53f36de-74a7-4ece-a374-8b7857544f40)
+- ![deployflow drawio (1)](https://github.com/YutaOkoshi/selenium-ecs-sample/assets/37532269/33f75c72-e47f-430e-91fd-947c851ab59d)
 
 - Cloudformation Stack
-- ![resorces drawio (1)](https://github.com/YutaOkoshi/selenium-ecs-sample/assets/37532269/19446fff-6c55-47d5-8aad-56074ff0f8c5)
+- ![resource drawio](https://github.com/YutaOkoshi/selenium-ecs-sample/assets/37532269/a3941b07-92d1-4c7f-9df3-e5cf7e38abda)
 
 
 ## deploy to aws
